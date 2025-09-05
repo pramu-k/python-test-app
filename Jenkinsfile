@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_BFLASK_IMAGE = 'pramudithakaluthanthri/my-flask-app:2'
+        DOCKER_BFLASK_IMAGE = 'pramudithakaluthanthri/my-flask-app-1'
         DOCKER_REGISTRY_CREDS = 'dockerhub-credential'
     }
 
