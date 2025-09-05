@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_BFLASK_IMAGE = 'anuruddhaedcd/my-flask-app:latest'
-        DOCKER_REGISTRY_CREDS = 'docker-jenkins-token-1'
+        DOCKER_BFLASK_IMAGE = 'pramudithakaluthanthri/my-flask-app:2'
+        DOCKER_REGISTRY_CREDS = 'dockerhub-credential'
     }
 
     stages {
